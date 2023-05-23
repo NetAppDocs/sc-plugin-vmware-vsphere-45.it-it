@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: scpivs44_migrate.html 
+keywords:  
+summary: 'I cmdlet di SnapCenter PowerShell vengono utilizzati per migrare i metadati del plug-in SnapCenter per VMware vSphere dal server SnapCenter basato su Windows al plug-in SnapCenter basato su Linux per l"appliance virtuale VMware vSphere.' 
+---
+= Opzioni di migrazione e percorsi supportati
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+I cmdlet di SnapCenter PowerShell vengono utilizzati per migrare i metadati del plug-in SnapCenter per VMware vSphere dal server SnapCenter basato su Windows al plug-in SnapCenter basato su Linux per l'appliance virtuale VMware vSphere.
+
+
+
+== Opzioni di migrazione
+
+Sono disponibili due opzioni di migrazione:
+
+* Migrazione da SnapCenter
++
+È necessario migrare i metadati per i seguenti elementi da SnapCenter basato su Windows:
+
++
+** Backup coerenti con le macchine virtuali eseguiti dal plug-in SnapCenter per VMware vSphere quando il plug-in veniva eseguito come componente Windows di SnapCenter.
+** Metadati di protezione dei dati coerenti con l'applicazione di database virtualizzati o file system eseguiti da un plug-in basato sull'applicazione SnapCenter con il supporto del plug-in SnapCenter per VMware vSphere quando il plug-in era in esecuzione come componente Windows di SnapCenter.
++
+Per eseguire la migrazione, utilizzare il cmdlet PowerShell di Windows SnapCenter `invoke-SCVOVAMigration.`
+
++
+È possibile eseguire la migrazione dei metadati solo da SnapCenter 4.0 o versioni successive.
+
+
+
+* Migrazione da VSC
++
+È possibile migrare i metadati di VSC 6.2.x (SMVI) per i processi di backup non integrati con SnapCenter.
+
++
+Per eseguire la migrazione, utilizza NetApp ToolChest: Utility di importazione NetApp per SnapCenter e console di storage virtuale. Assicurarsi di selezionare l'opzione di migrazione da VSC a SnapCenter.
+
++
+È possibile eseguire la migrazione dei metadati solo per i backup esistenti. Ad esempio, se non si dispone di backup esistenti, non è possibile migrare solo i criteri.
+
+
+
+
+
+== Percorsi di migrazione supportati
+
+Vedere link:scpivs44_release_notes.html["Note sulla versione del plug-in SnapCenter per VMware vSphere"^] per informazioni sui percorsi di aggiornamento e migrazione supportati.
