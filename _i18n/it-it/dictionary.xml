@@ -22,27 +22,11 @@
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Copyright</block>
-  <block id="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link"><block ref="de6edae22bc37b97b38a15c7f8af62e2" category="inline-link-rx"></block></block>
-  <block id="bb66384fc72d3c628df8a5f0f82af691" category="paragraph"><block ref="bb66384fc72d3c628df8a5f0f82af691" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marchi</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, il logo NETAPP e i marchi elencati nella pagina dei marchi NetApp sono marchi di NetApp, Inc. Altri nomi di società e prodotti potrebbero essere marchi dei rispettivi proprietari.</block>
-  <block id="a93bc0a57623c2facaa010825c808507" category="inline-link"><block ref="a93bc0a57623c2facaa010825c808507" category="inline-link-rx"></block></block>
-  <block id="e895a12067be0bbd74a4e8b2b0aa1151" category="paragraph"><block ref="e895a12067be0bbd74a4e8b2b0aa1151" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Brevetti</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Un elenco aggiornato dei brevetti di proprietà di NetApp è disponibile all'indirizzo:</block>
-  <block id="547ea2e305891e64d8e744949b0aca2c" category="inline-link"><block ref="547ea2e305891e64d8e744949b0aca2c" category="inline-link-rx"></block></block>
-  <block id="f48d97bbf0d920d837c970ab54fcbf14" category="paragraph"><block ref="f48d97bbf0d920d837c970ab54fcbf14" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
-  <block id="50921fca0d376fca62102a5e608994e2" category="inline-link"><block ref="50921fca0d376fca62102a5e608994e2" category="inline-link-rx"></block></block>
-  <block id="3440f69304b6f0194e5502be93aede3f" category="paragraph"><block ref="3440f69304b6f0194e5502be93aede3f" category="inline-link-rx"></block></block>
-  <block id="b4de17ead867a3cf0b9d11e57e562672" category="section-title">Traduzione automatica</block>
-  <block id="19d4bd8b5bc76a91b74c1aa69ecea894" category="paragraph">Informazioni importanti sui contenuti localizzati.</block>
-  <block id="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link"><block ref="db9bfd81e26275c9db26e2db3ac172c3" category="inline-link-rx"></block></block>
-  <block id="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="paragraph"><block ref="53028fa3036b4b4d8b4ba1c27bf5f0f8" category="inline-link-rx"></block></block>
-  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open source</block>
-  <block id="0d06100a9c9a8a7758a0d58988e99d2f" category="paragraph">Fornisce informazioni sul copyright e sulle licenze di terze parti utilizzate in questo prodotto. Il prodotto non utilizza necessariamente tutti i componenti software indicati di seguito.</block>
-  <block id="c75ce7bcc0ee343fd40962cb343ee4e0" category="inline-link"><block ref="c75ce7bcc0ee343fd40962cb343ee4e0" category="inline-link-rx"></block></block>
-  <block id="3f4c6b17fb65a7cb9295c9a86eb5a00a" category="paragraph"><block ref="3f4c6b17fb65a7cb9295c9a86eb5a00a" category="inline-link-rx"></block></block>
   <block id="b44102bc60fe04461ce5e9757f7df1a2" category="summary">Per migliorare l'efficienza operativa, è possibile modificare il file di configurazione scbr.override per modificare i valori predefiniti. Questi valori controllano impostazioni come il numero di snapshot VMware creati o cancellati durante un backup o il tempo prima che uno script di backup venga interrotto.</block>
   <block id="dcd4d838eca9843ffd6ec1f3e29709c6" category="doc">Personalizzare la configurazione</block>
   <block id="303bdbbcc69c42ada4d351470161cb37" category="paragraph">Per migliorare l'efficienza operativa, è possibile modificare<block ref="c7d1d750bd6b50c426013a326fa505ba" prefix=" " category="inline-code"></block> file di configurazione per modificare i valori predefiniti. Questi valori controllano impostazioni come il numero di snapshot VMware creati o cancellati durante un backup o il tempo prima che uno script di backup venga interrotto.</block>
@@ -1988,4 +1972,12 @@
   <block id="74fe1f888648848c4fd5f85ae847a16c" category="sidebar">Knowledge base di NetApp – SCV</block>
   <block id="4f617a414f082209335de6720dcdf34c" category="sidebar">Il plug-in SnapCenter per VMware vSphere (SCV) è un'appliance virtuale basata su Linux. In quanto standalone, offre operazioni di backup e ripristino rapide, efficienti in termini di spazio, coerenti con i crash e coerenti con le macchine virtuali per macchine virtuali, archivi dati e VMDK. Funziona anche con il server SnapCenter per supportare operazioni di backup e ripristino basate su applicazioni in ambienti VMware per plug-in specifici dell'applicazione SnapCenter. Questa libreria di documentazione descrive il plug-in SnapCenter per VMware vSphere versioni 4,4 e 4,5.</block>
   <block id="eddfe1d95669579c49fd69f6597aefe5" category="sidebar">Documentazione del plug-in SnapCenter per VMware vSphere 4,5</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
