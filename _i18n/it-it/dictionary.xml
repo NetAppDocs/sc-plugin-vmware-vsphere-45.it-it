@@ -210,7 +210,6 @@
   <block id="b3b58566d772ea091ad559ad7c722828" category="inline-link-macro">Operazioni e problemi richiesti dopo l'implementazione</block>
   <block id="8d9c5cc14a4e4caa925cbd7a13131b96" category="paragraph"><block ref="8d9c5cc14a4e4caa925cbd7a13131b96" category="inline-link-macro-rx"></block></block>
   <block id="c668bd9b3cf929998758f1286539cf07" category="inline-link-macro">Migrare i metadati di backup VMware di SnapCenter basati su Windows</block>
-  <block id="5ab39eb962f4ca6c2fa2841599dc4b73" category="paragraph"><block ref="5ab39eb962f4ca6c2fa2841599dc4b73" category="inline-link-macro-rx"></block></block>
   <block id="4f16943c910d32ed4528d6b014309cac" category="summary">Per eseguire operazioni di backup on-demand utilizzando il plug-in SnapCenter per le API REST di VMware vSphere, è necessario seguire la sequenza prescritta di chiamate API REST.</block>
   <block id="511d152eddccdbcaed5c57144b3e1b5d" category="doc">Workflow API REST per il backup on-demand</block>
   <block id="3c82f7eb36bfab4289a34422763ec1df" category="paragraph">Per ogni API REST, aggiungere<block ref="431c67e807b05c391af3df2553772b72" prefix=" " category="inline-code"></block> All'inizio dell'API REST per formare un endpoint completo.</block>
@@ -275,7 +274,6 @@
   <block id="5990783a93858d845e12e401808f16f3" category="list-text">Quando il numero di copie Snapshot sullo storage secondario (vault mirror) raggiunge il limite massimo, l'attività di registrazione del backup e di applicazione della conservazione nell'operazione di backup non riesce e viene visualizzato il seguente errore:<block ref="5a9cca26582442620c7aafc02ff929a9" prefix=" " category="inline-code"></block></block>
   <block id="7cb7ec638ee3f628b5dd7b29b735054f" category="paragraph">Per risolvere questo problema, configurare il criterio di conservazione di SnapMirror per lo storage secondario per evitare di raggiungere il limite massimo di copie Snapshot.</block>
   <block id="585f74b2337dcf50d5f84248087dbc7a" category="inline-link">Informazioni SnapCenter sull'utilizzo del controllo degli accessi basato sui ruoli</block>
-  <block id="339d9a9c6148bb34e3d15a00f296465c" category="paragraph">Per informazioni sulle modalità di assegnazione delle risorse agli utenti da parte degli amministratori, vedere<block ref="3c6a9a14d0d13aed475a45101fc3cc00" category="inline-link-rx"></block>.</block>
   <block id="600a5d9204570f4fa6ca6b92c38201a2" category="list-text">Se si desidera eseguire backup coerenti con le macchine virtuali, è necessario che VMware Tools sia installato e in esecuzione. VMware Tools è necessario per interrompere le macchine virtuali.</block>
   <block id="567ee5fafb197286f35c17cbadbca640" category="paragraph">La maggior parte dei campi presenti in queste pagine della procedura guidata sono esplicativi. Le seguenti informazioni descrivono alcuni dei campi per i quali potrebbe essere necessaria una guida.</block>
   <block id="406017c1f63a5ea525013c02ee27c794" category="list-text">Nel riquadro sinistro del Navigator del client Web VMware vSphere, fare clic su *Policies* (Criteri).</block>
@@ -317,8 +315,6 @@
   <block id="5289185cda6b3fc469161fc0d841232d" category="list-text">Fare clic su *Aggiungi.*</block>
   <block id="0e966e38f37db4fe0a9b1d6f014e044c" category="paragraph">È possibile verificare che il criterio sia stato creato e rivedere la configurazione del criterio selezionando il criterio nella pagina Criteri.</block>
   <block id="023f24f55850eacb351f762db9b50e81" category="doc">Panoramica sulla migrazione</block>
-  <block id="8a4139ea0786f41cc68aee2d93ca450a" category="paragraph">Il comando di migrazione migra i metadati solo da SnapCenter 4.0 e versioni successive. Se si utilizza una versione precedente di SnapCenter, è necessario prima eseguire l'aggiornamento prima di poter eseguire la migrazione.</block>
-  <block id="ec3d3431008e42a4c37055a78db7f12e" category="list-text">Ciò che è stato migrato include</block>
   <block id="2feaeb2408c183d076a33a4219e1d2f9" category="list-text">Che cosa viene migrato</block>
   <block id="6e47f67257a96da0e60439107f9313d8" category="paragraph">Metadati SnapCenter, che includono sistemi di storage, acceleratori personalizzati e impostazioni e-mail nel file di configurazione di SnapCenter, policy, gruppi di risorse, metadati di backup e montaggi. (la migrazione non riesce quando incontra prescritture o postscript)</block>
   <block id="f157845fa7e2cb440b9720fee982320f" category="list-text">Cosa non viene migrato</block>
@@ -328,7 +324,6 @@
   <block id="2f0eb194a8b49da961163bd88957db1d" category="paragraph"><block ref="c7d1d750bd6b50c426013a326fa505ba" prefix="" category="inline-code"></block> file di configurazione</block>
   <block id="9f169b49f330730947d222bbed5ea9d5" category="list-text">Gli host SnapCenter sono sospesi</block>
   <block id="f9e772034bf2ad727413af11c17ae321" category="paragraph">Per garantire la riuscita della migrazione, il comando di migrazione sospende tutti gli host registrati con SnapCenter. Una volta completato correttamente il processo di migrazione, gli host SnapCenter vengono ripristinati.</block>
-  <block id="076b638a7f6c60dc2af3157c7af35158" category="list-text">Processo del cmdlet di migrazione</block>
   <block id="5791662733ea82fadcf51018f5a713cc" category="paragraph">È necessario utilizzare il cmdlet di Windows PowerShell<block ref="f250ae1083ae1b8c30ecafec6ba6a337" prefix=" " category="inline-code"></block> Per ogni istanza del plug-in VMware di SnapCenter registrato con SnapCenter.</block>
   <block id="e58c39b63288d59ff9b1d3a32f24ba44" category="paragraph">Il cmdlet esegue le seguenti operazioni:</block>
   <block id="ddfa006f0c7097e6fe9a320155501b2f" category="list-text">Sospende tutte le pianificazioni per evitare errori durante la migrazione. Una volta completata la migrazione, le pianificazioni vengono riattivate automaticamente.</block>
@@ -338,7 +333,6 @@
   <block id="8ad1e62298fe84f2103d5d68c12376c5" category="paragraph">Se il plug-in VMware SnapCenter è installato sull'host del server SnapCenter e la protezione è configurata per l'archivio SnapCenter, il processo di migrazione disinstalla anche il pacchetto di plug-in basato su Windows che contiene il plug-in SnapCenter per VMware vSphere e il plug-in SnapCenter per Windows, Quindi, reinstalla la versione più recente del plug-in SnapCenter per Windows per supportare la protezione del repository. Il tipo di host nella GUI di SnapCenter cambia da "vsphere" a "Windows".</block>
   <block id="f45c0c9d4c9330950129ecfca4d67849" category="list-text">Rimuove l'host vSphere e i gruppi di risorse dal server Windows SnapCenter.</block>
   <block id="63d4733b87f2ebada3ddc1c38c9e2096" category="list-text">Attiva i processi di backup sul plug-in VMware di SnapCenter basato su Linux.</block>
-  <block id="4da72ab114de409c72a5b91f5ad57eac" category="list-text">Registra l'host vSphere per il plug-in VMware di SnapCenter `con SnapCenter per supportare backup basati su applicazioni di database e file system virtualizzati (applicazione su backup VMDK).</block>
   <block id="eb35c37e8caa9a670b1dc9d5b748f81d" category="list-text">Dove vengono memorizzati i metadati</block>
   <block id="225482ffbb975fa40a03adf122327c07" category="paragraph">I metadati per i backup VMDK basati sull'applicazione vengono memorizzati nel repository del server SnapCenter. I metadati per i backup di macchine virtuali e datastore vengono memorizzati nel repository MySQL del plug-in SnapCenter.</block>
   <block id="3a3bfcea804c014276e7672b06f18879" category="summary">Prima di implementare l'appliance virtuale, è necessario conoscere i requisiti di implementazione.</block>
@@ -1001,7 +995,6 @@
   <block id="88beb2e51cd0b895e36e8a71f5ddd38c" category="paragraph">Per impedire la creazione di nuove copie Snapshot durante la clonazione del volume, disattivare la pianificazione ONTAP per il volume SnapVault. Le copie Snapshot esistenti in precedenza non vengono eliminate.</block>
   <block id="89321ccbd89a9e660bc76b0f2974632d" category="summary">Il plug-in VMware di SnapCenter utilizza la crittografia SSL per comunicazioni sicure con il browser client. Anche se ciò consente di abilitare i dati crittografati attraverso il cavo, creando un nuovo certificato autofirmato o utilizzando la propria infrastruttura di autorità di certificazione (CA) o una CA di terze parti, garantisce che il certificato sia unico per l'ambiente in uso.</block>
   <block id="9668b00eae1748d51afb7f725a15301a" category="inline-link">Articolo della Knowledge base: Come creare e/o importare un certificato SSL nel plug-in SnapCenter per VMware vSphere</block>
-  <block id="ba9184cb661fa8aa1f1e6f33c3d4f7b2" category="paragraph">Vedere<block ref="bf84a7958c466b4ea912f7e396459ac9" category="inline-link-rx"></block>.</block>
   <block id="680336546cdb6ce79eaef81de3fc6c8b" category="summary">Il plug-in SnapCenter per VMware vSphere è un plug-in standalone diverso dagli altri plug-in SnapCenter. Per tutte le operazioni di backup e ripristino di macchine virtuali, VMDK e datastore, è necessario utilizzare la GUI del client Web di VMware vSphere in vCenter.</block>
   <block id="883fd3a999b576424bc7a7ce53cc2e8a" category="doc">Panoramica delle diverse GUI di SnapCenter</block>
   <block id="568a0ca21263fa919f552d5a59509f7b" category="paragraph">Nell'ambiente SnapCenter, è necessario utilizzare la GUI appropriata per eseguire operazioni di gestione e protezione dei dati.</block>
@@ -1980,4 +1973,7 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph">Vedi la <block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>.</block>
+  <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">Per informazioni su come gli amministratori assegnano le risorse agli utenti, vedere la <block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>.</block>
+  <block id="a621a06ff9228f52f24b83c3da378df2" category="paragraph"><block ref="a621a06ff9228f52f24b83c3da378df2" category="inline-link-macro-rx"></block></block>
 </blocks>
