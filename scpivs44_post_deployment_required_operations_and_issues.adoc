@@ -23,7 +23,7 @@ Se sei un nuovo utente SnapCenter, devi aggiungere le VM di storage a SnapCenter
 
 * Utente SnapCenter esistente
 +
-Se si è già utenti di SnapCenter, è necessario migrare i backup e i metadati di SnapCenter VM e datastore esistenti. Per informazioni sulla migrazione, vedere link:scpivs44_migrate.html#migration-options.html["Opzioni di migrazione"^].
+Se sei già un utente SnapCenter, devi migrare i backup e i metadati delle VM e dei datastore esistenti di SnapCenter. Per informazioni sulla migrazione, consulta link:scpivs44_migrate.html#migration-options["Opzioni di migrazione"^].
 
 
 

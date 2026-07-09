@@ -794,7 +794,6 @@
   <block id="25d5b23dfd2418ca2f7bd81c33cc1638" category="paragraph">Se sei un nuovo utente SnapCenter, devi aggiungere le VM di storage a SnapCenter prima di poter eseguire qualsiasi operazione di protezione dei dati. Quando si aggiungono VM di storage, specificare la LIF di gestione. È inoltre possibile aggiungere un cluster e specificare la LIF di gestione del cluster. Per informazioni sull'aggiunta dello storage, vedere <block ref="a83c5384e42700c13fcc0778429c0b28" category="inline-link-macro-rx"></block>.</block>
   <block id="c46744bb8e6daa4db071ea447075214c" category="list-text">Utente SnapCenter esistente</block>
   <block id="7fb0755110f4a96ae5bd0935a2d5ccbb" category="inline-link-macro">Opzioni di migrazione</block>
-  <block id="66e11d3669530781548c44d0e985fd1f" category="paragraph">Se si è già utenti di SnapCenter, è necessario migrare i backup e i metadati di SnapCenter VM e datastore esistenti. Per informazioni sulla migrazione, vedere <block ref="fb8941fcb20ab31bfb546ae55256953e" category="inline-link-macro-rx"></block>.</block>
   <block id="40e6eca2154c52c78e678989d72d7903" category="section-title">Problemi di implementazione che potrebbero verificarsi</block>
   <block id="b4f66c551198bcae0c148df6464649d2" category="list-text">Dopo aver implementato l'appliance virtuale, la scheda *Backup Jobs* nella dashboard potrebbe non essere caricata nei seguenti scenari:</block>
   <block id="01247ceba6ba6adacf0cb970001c3199" category="list-text">Si utilizza IPv4 e si dispone di due indirizzi IP per l'host VMware vSphere di SnapCenter. Di conseguenza, la richiesta di lavoro viene inviata a un indirizzo IP non riconosciuto dal server SnapCenter. Per evitare questo problema, aggiungere l'indirizzo IP che si desidera utilizzare, come indicato di seguito:</block>
@@ -1976,4 +1975,5 @@
   <block id="4ddfe5345c1893eaed7f3552ae181f2a" category="paragraph">Vedi la <block ref="3cc65228ae073aa630520717edc687a9" category="inline-link-rx"></block>.</block>
   <block id="9c6e71898eae8897a7d429e3065e5a68" category="paragraph">Per informazioni su come gli amministratori assegnano le risorse agli utenti, vedere la <block ref="d818f211a7449f29082596280ad483fa" category="inline-link-rx"></block>.</block>
   <block id="a621a06ff9228f52f24b83c3da378df2" category="paragraph"><block ref="a621a06ff9228f52f24b83c3da378df2" category="inline-link-macro-rx"></block></block>
+  <block id="be265de7e1b393ce9975fd92b202571f" category="paragraph">Se sei già un utente SnapCenter, devi migrare i backup e i metadati delle VM e dei datastore esistenti di SnapCenter. Per informazioni sulla migrazione, consulta <block ref="78a42a003571fc69eadd314a84045e01" category="inline-link-macro-rx"></block>.</block>
 </blocks>
